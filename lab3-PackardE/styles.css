@@ -1,0 +1,34 @@
+h1{
+    color:darkcyan;
+    background-color: burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    margin:2rem;
+    padding: 5rem;
+}
+h2{
+    color:darkgray;
+    background-color: darkgreen;
+    font-family: cursive;
+    font-weight: 200;
+    text-align: center;
+}
+h3{
+    color:darkred;
+    background-color:darksalmon;
+    font-family: monospace;
+    font-size: 2rem;
+}
+h4{
+    color: darkslategray;
+    font-weight: 300;
+    font-size: 2rem;
+}
+p{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+ul{
+    font-size: 2rem;
+    padding-top: 3rem;
+}

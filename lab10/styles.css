@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(255, 229, 219);
+    font-family: ;
+}
+header>.logo{
+    
+}
+header>nav>a{
+    color: black;
+}
+main{
+    text-align: center;
+}

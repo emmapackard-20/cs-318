@@ -30,7 +30,7 @@ header>.header-photo{
     }
     header .logo{
         max-width: 100%;
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
         padding-top: 2rem;
     }
     header>.header-photo{
@@ -45,4 +45,9 @@ header>.header-photo{
     header div{
         width: 32%;
     }
+    main>.our-story{
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+    
 }

@@ -61,6 +61,7 @@ article{
     padding: 1rem;
     display: none;
 }
+/*change the > to a space on 65*/
 section>span{
     position: absolute;
     top: 15rem;
@@ -77,6 +78,7 @@ section>h2{
 article.show{
     display: block;
 }
+/*change the > to a space on 82 */
 section>span{
     transform: rotate(180deg);
 }
@@ -104,6 +106,7 @@ span.rotate{
         font-size: 3rem;
         background-position: center;
     }
+    /*change the > to a space on 110*/
     section>span{
         font-size: 4rem;
         top: 26rem;

@@ -18,38 +18,38 @@
         <h1>Monster Creator</h1>
     </header>
     <main>
-        <form>
-            <label for="monster-name">Monster's Name</label>
+        <form action="https://theresahanson.com/monster-creator" method="post" enctype="multipart/form-data">
+            <label for="name">Monster's Name</label>
             <input type="text" id="name" name="monster-name">
             
-            <label for="monster-email">Monster's Email</label>
+            <label for="email">Monster's Email</label>
             <input type="text" id="email" name="monster-email" value="@monsteremail.com">
 
-            <label for="monster-birthday">Monster's Birthday</label>
+            <label for="birthday">Monster's Birthday</label>
             <input type="date" id="birthday" name="monster-birthday">
 
                 <fieldset>
                     <legend>Scary?</legend>
-                    <label for="monster-scary">YES!</label>
+                    <label for="scary-yes">YES!</label>
                     <input type="radio" id="scary-yes" name="monster-scary">
 
-                    <label for="monster-scary">No</label>
+                    <label for="scary-no">No</label>
                     <input type="radio" id="scary-no" name="monster-scary">
                 </fieldset>
                     
-            <label for="monster-color">Color of Monster</label>
+            <label for="color">Color of Monster</label>
             <input type="color" id="color" name="monster-color">
 
-            <label for="monster-tentacles">Number of Tentacles</label>
+            <label for="tentacles">Number of Tentacles</label>
             <input type="number" id="tentacles" name="monster-tentacles" value="0" min="0" max="1000000">
 
-            <label for="monster-picture">Picture of Monster</label>
+            <label for="picture">Picture of Monster</label>
             <input type="file" id="picture" name="monster-picture" accept="images/*">
 
-            <label for="monster-eyes">Number of Eyeballs</label>
+            <label for="eyes">Number of Eyeballs</label>
             <input type="number" id="eyes" name="monster-eyes" min="0" max="22">
 
-            <label for="monster-creator">Monster's Creator</label>
+            <label for="creator">Monster's Creator</label>
             <input type="text" id="creator" name="monster-creator" value="Your Name Here">
                 
                 <div class="actions">

@@ -83,7 +83,7 @@ section:before{
     top: 0;
 }
 #odin:before{
-    content:url(images/odin.svg);
+    content:url(images/050-odin.svg);
 }
 @media (min-width: 1100px){
     body{

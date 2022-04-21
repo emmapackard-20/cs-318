@@ -85,6 +85,60 @@ section:before{
 #odin:before{
     content:url(images/050-odin.svg);
 }
+#thor:before{
+    content: url(images/023-thor.svg);
+}
+#loki:before{
+    content: url(images/035-knife.svg);
+}
+#frigg:before{
+    content: url(images/038-coin.svg);
+}
+#baldr:before{
+    content: url(images/044-raven.svg)
+}
+#freyja:before{
+    content: url(images/031-skull.svg);
+}
+#freyr:before{
+    content: url(images/024-arrow.svg);
+}
+#heimdallr:before{
+    content: url(images/006-beer-mug.svg);
+}
+#voluspa:before{
+    content: url(images/017-ship.svg);
+}
+#yggdrasil:before{
+    content: url(images/042-mask.svg);
+}
+#asgard:before{
+    content: url(images/014-ham.svg);
+}
+#vanaheimr:before{
+    content: url(images/015-valkyrie.svg);
+}
+#alfheim:before{
+    content: url(images/039-axe.svg);
+}
+#midgard:before{
+    content: url(images/036-torch.svg);
+}
+#jotunheimr:before{
+    content: url(images/043-bag.svg);
+}
+#muspelheim:before{
+    content: url(images/045-tower.svg);
+}
+#svartalfar::before{
+    content: url(images/048-mountains.svg);
+}
+#niflheim:before{
+    content: url(images/040-viking-2.svg);
+}
+#nioavellir:before{
+    content: url(images/047-codfish.svg);
+}
 @media (min-width: 1100px){
     body{
         display: grid;

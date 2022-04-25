@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(9, 2, 29);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.rover{
+    width: 30rem;
+    height: 30rem;
+    position: fixed;
+    display: block;
+    bottom: 10.5rem;
+    left: 10%;
+}
+.mars{
+    position: fixed;
+    width: 100%;
+    height: 10.5rem;
+    z-index: -1;
+    background-color: #913a25;
+    border-top: 1rem solid #d15f44;
+    bottom: 0;
+}
+.planet{
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    z-index: -2;
+    animation: rise 10s ease-in 1s;
+    animation-fill-mode: forwards;
+    left: 30%;
+}
+.rover::after{
+    content: url(images/dish.svg);
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 3rem;
+    top: 2rem;
+    z-index: 1;
+    transform-origin: center bottom;
+    animation-name: rotate;
+    animation
+}
+@keyframes rise {
+    from{
+        bottom: 0;
+        transform: rotate 0, scale 1;
+    }
+    to{
+        bottom: 75%;
+        transform: rotate 180deg, scale 2;
+    }
+}

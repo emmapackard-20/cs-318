@@ -40,7 +40,10 @@ body{
     z-index: 1;
     transform-origin: center bottom;
     animation-name: rotate;
-    animation
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
 }
 @keyframes rise {
     from{
@@ -50,5 +53,13 @@ body{
     to{
         bottom: 75%;
         transform: rotate 180deg, scale 2;
+    }
+}
+@keyframes rotate {
+    from{
+        transform: rotate -5deg;
+    }
+    to{
+        transform: rotate -33deg;
     }
 }

@@ -33,7 +33,7 @@ form{
 }
 input[type=text], [type=email], [type=date], [type=number], [type=color]{
     font-size: 1.25rem;
-    width: calc(100%-1rem);
+    width: calc(100%-1rem);/*The minus sign needs a space on both sides of it.*/
     border: 3px solid yellowgreen;
     padding: .5rem;
     border-radius: .25rem;

@@ -172,7 +172,7 @@ footer{
         margin-left: -16rem;
     }
     .call-to-action{
-        padding: 20rem calc((100%-900px)/2)5rem;
+        padding: 20rem calc((100% - 900px)/2) 5rem;
     }
     .call-to-action h2{
         font-size: 5rem;

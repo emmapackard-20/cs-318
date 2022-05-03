@@ -1,0 +1,40 @@
+main{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #654321;
+    font-size: 2rem;
+}
+main>img{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A8A676;
+    margin: 0;
+}
+header>a>img{
+    max-width: 10rem;
+    width: 100%;
+}
+body{
+    background-color: #FFFEE9;   
+}
+nav>a{
+    font-family: 'Raleway', sans-serif;
+    padding: .6rem;
+}
+.macrame img{
+    max-width: 100%;
+}
+nav{
+    flex: 3;
+    padding-top: 1rem;
+}
+header>a{
+    flex: 1;
+}
+.intro{
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}

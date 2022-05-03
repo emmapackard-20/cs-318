@@ -43,7 +43,7 @@ section{
 }
 .title{
     margin: 0;
-    padding: 2rem 1 rem;/*The space between 1 and rem is breaking the padding*/
+    padding: 2rem 1rem;
     background-color: #2e0105;
 }
 .sidenav>a::before{

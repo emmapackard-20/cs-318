@@ -1,10 +1,12 @@
 main{
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 body{
     background-color: #fdf6e4;
     font-family: 'Poppins', sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 header>img{
     max-width: 100%;
@@ -13,16 +15,19 @@ header>img{
 header{
     display: flex;
 }
-header nav{
-    justify-content: space-evenly;
+header>nav>a{
+    justify-content: space-around;
 }
 .about{
     display: flex;
     background-color: white;
+    display: flex;
+    padding-bottom: 1rem;
 }
 .about>img{
     max-width: 100%;
     width: 25%;
+    position: absolute;
 }
 .about>h2{
     color:#f9545b;
@@ -49,9 +54,8 @@ header>nav>a{
 }
 footer{
     background-color: #2aac92;
-}
-.croissant>img{
-    width: 50%;
+    margin: 0;
+    display: flex;
 }
 .danish{
     background-color: white;
@@ -74,9 +78,33 @@ footer{
 .the-goods{
     display: flex;
 }
-.the-goods img{
+.goods img{
     max-width: 100%;
 }
-section>div{
-    justify-content: space-evenly;
+section{
+    justify-content: space-between;
+    text-align: center;
+}
+.croissant{
+    background-image: url(images/croissant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+section h3{
+    color: #f9545b;
+}
+#the-goods::before{
+    content: url(images/cookie.svg);
+    position: absolute;
+}
+#the-goods::after{
+    content: url(images/croissant.svg);
+    content: url(images/bread.svg);
+    content: url(images/pie.svg);
+    content: url(images/donut.svg);
+    content: url(images/pudding.svg);
+}
+.the-goods{
+    background-color: #f9545b;
 }

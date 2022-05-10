@@ -11,35 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <header>
-            <img src="images/butter-half-logo.svg" alt="butter half logo">
-            <nav>
+    <div class="overlay toggle-nav"></div>
+    <header>
+        <img src="images/butter-half-logo.svg" alt="butter half logo">
+        <div class="hamburger" onclick="toggleNav()"><hr><hr><hr></div>
+            <nav class="toggle-nav">
                 <a href="#about">about</a>
                 <a href="#hours">hours</a>
                 <a href="#order">order</a>
             </nav>
-        </header>
+        </div>
+    </header>
+    <main>
         <div class="croissant">
             <h2>The Butter Half Bakery</h2>
             <p>"I'm gonna eat you 'cause baby<br>You're my butter half"</p>
-            <img src="images/croissant.jpg" alt="blurry croissant image">
         </div>
-        <div class="about">
-            <h2>About</h2>
+        <div class="about" id="about">
+            <img src="images/about.png" alt="french bread"><h2>About</h2>
             <p>We make all of our food from scratch, ranging from authentic French baked goods to an assortment of American offerings, and we're proud to provide locally sourced items, and premium organic coffees courtesy of Backroads Coffee and Honest Roast Coffee. </p>
-            <img src="images/about.png" alt="french bread">
         </div>
-        <div class="hours">
+        <div class="hours" id="hours">
+            <img src="images/timer.svg" alt="timer icon">
             <h2>Hours</h2>
             <p>5 am to 4 pm<br>6 am to 4 pm<br>6 am to 6 pm<br>Closed</p>
             <p>Monday-Thursday<br>Friday<br>Saturday<br>Sunday</p>
-            <img src="images/timer.svg" alt="timer icon">
         </div>
         <div class="the-goods">
             <h2>The Goods</h2>
         </div>
-        <section class="the-goods">
+        <section class="goods">
             <div class="danish">
                 <h3>Turtle Danish</h3>
                 <img src="images/danish.png" alt="turtle danish">
@@ -77,8 +78,12 @@
                 <input type="text" id="quantity" name="lemon-tart">
             </div>
         </section>
-        <footer>
-
-        </footer>
     </main>
+        <footer>
+            <nav>
+                <a href="#about">about</a>
+                <a href="#hours">hours</a>
+                <a href="#order">order</a>
+            </nav>
+        </footer>
 </body>

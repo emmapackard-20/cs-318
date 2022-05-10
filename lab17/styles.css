@@ -1,0 +1,82 @@
+main{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+body{
+    background-color: #fdf6e4;
+    font-family: 'Poppins', sans-serif;
+}
+header>img{
+    max-width: 100%;
+    width: 20%;
+}
+header{
+    display: flex;
+}
+header nav{
+    justify-content: space-evenly;
+}
+.about{
+    display: flex;
+    background-color: white;
+}
+.about>img{
+    max-width: 100%;
+    width: 25%;
+}
+.about>h2{
+    color:#f9545b;
+}
+.hours{
+    background-color: white;
+    display: flex;
+}
+.hours>img{
+    max-width: 100%;
+    width: 25%;
+}
+.hours>h2{
+    color: #f9545b;
+}
+#order::after{
+    content: url(images/wicker-basket.svg);
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+}
+header>nav>a{
+    position: relative;
+}
+footer{
+    background-color: #2aac92;
+}
+.croissant>img{
+    width: 50%;
+}
+.danish{
+    background-color: white;
+}
+.macarons{
+    background-color: white;
+}
+.meringue{
+    background-color: white;
+}
+.peach-tart{
+    background-color: white;
+}
+.chocolate-tart{
+    background-color: white;
+}
+.lemon-tart{
+    background-color: white;
+}
+.the-goods{
+    display: flex;
+}
+.the-goods img{
+    max-width: 100%;
+}
+section>div{
+    justify-content: space-evenly;
+}

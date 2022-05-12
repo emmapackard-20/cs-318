@@ -1,0 +1,110 @@
+main{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+body{
+    background-color: #fdf6e4;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+header>img{
+    max-width: 100%;
+    width: 20%;
+}
+header{
+    display: flex;
+}
+header>nav>a{
+    justify-content: space-around;
+}
+.about{
+    display: flex;
+    background-color: white;
+    display: flex;
+    padding-bottom: 1rem;
+}
+.about>img{
+    max-width: 100%;
+    width: 25%;
+    position: absolute;
+}
+.about>h2{
+    color:#f9545b;
+}
+.hours{
+    background-color: white;
+    display: flex;
+}
+.hours>img{
+    max-width: 100%;
+    width: 25%;
+}
+.hours>h2{
+    color: #f9545b;
+}
+#order::after{
+    content: url(images/wicker-basket.svg);
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+}
+header>nav>a{
+    position: relative;
+}
+footer{
+    background-color: #2aac92;
+    margin: 0;
+    display: flex;
+}
+.danish{
+    background-color: white;
+}
+.macarons{
+    background-color: white;
+}
+.meringue{
+    background-color: white;
+}
+.peach-tart{
+    background-color: white;
+}
+.chocolate-tart{
+    background-color: white;
+}
+.lemon-tart{
+    background-color: white;
+}
+.the-goods{
+    display: flex;
+}
+.goods img{
+    max-width: 100%;
+}
+section{
+    justify-content: space-between;
+    text-align: center;
+}
+.croissant{
+    background-image: url(images/croissant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+section h3{
+    color: #f9545b;
+}
+#the-goods::before{
+    content: url(images/cookie.svg);
+    position: absolute;
+}
+#the-goods::after{
+    content: url(images/croissant.svg);
+    content: url(images/bread.svg);
+    content: url(images/pie.svg);
+    content: url(images/donut.svg);
+    content: url(images/pudding.svg);
+}
+.the-goods{
+    background-color: #f9545b;
+}

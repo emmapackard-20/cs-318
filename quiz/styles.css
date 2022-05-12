@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: coral;
+    overflow: hidden;
+}
+.square{
+    background-color: white;
+    height:5rem;
+    width:5rem;
+    position: absolute;
+    left:48%;
+    top:48%;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-out 1s;
+    transform-origin: center;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes spin {
+    from{
+        transform: rotate(0) scale(1);
+    }
+    to{
+        transform: rotate(360deg) scale(2);
+    }
+}
+   

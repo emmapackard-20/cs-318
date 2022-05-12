@@ -38,3 +38,24 @@ header>a{
     padding-top: 1.5rem;
     padding-bottom: 2rem;
 }
+.pots img{
+    max-width: 100%;
+}
+.wax-stamps img{
+    max-width: 100%;
+}
+.blankets img{
+    max-width: 100%;
+}
+.shopping-cart img{
+    max-width: 100%;
+}
+.items{
+   background-color: #A8A676;
+}
+.macrame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+   

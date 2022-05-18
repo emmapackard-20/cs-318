@@ -5,8 +5,8 @@ main{
 body{
     background-color: #fdf6e4;
     font-family: 'Poppins', sans-serif;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 header>img{
     max-width: 100%;
@@ -19,22 +19,27 @@ header>nav>a{
     justify-content: space-around;
 }
 .about{
-    display: flex;
     background-color: white;
-    display: flex;
+    display: block;
     padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .about>img{
     max-width: 100%;
-    width: 25%;
-    position: absolute;
+    width: 75%;
+    height: 75%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .about>h2{
     color:#f9545b;
 }
 .hours{
     background-color: white;
-    display: flex;
+    display: block;
+    justify-content: center;
 }
 .hours>img{
     max-width: 100%;
@@ -59,9 +64,11 @@ footer{
 }
 .danish{
     background-color: white;
+    grid-area: 1/1/2/2;
 }
 .macarons{
     background-color: white;
+    grid-area: 1/2/2/3;
 }
 .meringue{
     background-color: white;
@@ -107,4 +114,20 @@ section h3{
 }
 .the-goods{
     background-color: #f9545b;
+}
+.goods{
+    grid-area: 1/1/4/3;
+    width: 24%;
+    display: grid;
+    flex-wrap: wrap;
+}
+.goods div{
+    margin: 1rem;
+}
+.about{
+    align-content: center;
+}
+.goods>div>button{
+    background-color: #f9545b;
+    font-family: 'Poppins', sans-serif;
 }

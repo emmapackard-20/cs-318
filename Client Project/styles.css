@@ -42,6 +42,7 @@ nav{
     grid-area: 1/2/2/4;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 header>a{
     flex: 1;
@@ -95,11 +96,83 @@ header>a{
 }
 .blankets>div{
     width: 48%;
+    font-size: 1rem;
 }
-@media screen (min-width:1000px){
-    .macrame div{
-        grid-area: 1/1/2/5;
-        display: flex;
+.blankets>p{
+    font-size: 1.5rem;
+}
+input[type=search]{
+    padding: .75rem .25rem;
+}
+.order-summary{
+    background-color: #A8A676;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.order-summary>h3{
+    margin: 0;
+}
+.promo-codes{
+    background-color: #A8A676;
+    padding-top: 1rem;
+}
+.promo-codes>h3{
+    margin: 0;
+}
+button{
+    padding: 1rem 5rem;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+input[type=code]{
+    padding: 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    width: calc(100% - 4rem);
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.items>img{
+    grid-area: 1/1/3/2;
+}
+.items>p{
+    text-align: right;
+    grid-area: 2/2/3/3;
+    align-self: flex-end;
+    margin: 0;
+}
+.items>div>h3{
+    font-size: 1.5rem;
+}
+.items>div>p{
+    font-size: 1.5rem;
+}
+@media (min-width:1000px){
+    .macrame>div{
+        width: 24%;
+    }
+    .macrame{
+        align-items: center;
+    }
+    .items>div>h3{
+        font-size: 2.5rem;
+    }
+    .items>div>p{
+        font-size: 2.5rem;
+    }
+    .items>p{
+        font-size: 2.5rem;
+    }
+    .pots>div{
+        width:24%;
+    }
+    .blankets>div{
         width: 24%;
     }
 }

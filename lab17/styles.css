@@ -23,15 +23,15 @@ header>nav>a{
     display: block;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 .about>img{
     max-width: 100%;
     width: 75%;
     height: 75%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 .about>h2{
     color:#f9545b;
@@ -114,15 +114,15 @@ section h3{
 }
 .the-goods{
     background-color: #f9545b;
-}
-.goods{
-    grid-area: 1/1/4/3;
-    width: 24%;
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
 }
-.goods div{
+.goods{
     margin: 1rem;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 .about{
     align-content: center;

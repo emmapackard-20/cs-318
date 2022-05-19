@@ -211,6 +211,9 @@ input[type=code]{
         padding-left: 3rem;
         padding-right: 3rem;
     }
+    .intro>p{
+        font-size: 2rem;
+    }
    .home-page>p{
        padding-left: 4rem;
        padding-right: 4rem;

@@ -32,6 +32,9 @@ nav>a{
     padding: .6rem;
     font-size: 120%;
 }
+.shoppingcart{
+    font-size: 115%;
+}
 .macrame img{
     max-width: 100%;
     align-items: center;
@@ -56,6 +59,7 @@ header>a{
 }
 .wax-stamps img{
     max-width: 100%;
+    width: 75%;
 }
 .blankets img{
     max-width: 100%;
@@ -96,7 +100,7 @@ header>a{
 }
 .blankets>div{
     width: 48%;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 .blankets>p{
     font-size: 1.5rem;
@@ -153,6 +157,32 @@ input[type=code]{
 .items>div>p{
     font-size: 1.5rem;
 }
+.intro{
+    font-size: 1.5rem;
+}
+.home-page>h2{
+    font-size: 2rem;
+}
+.home-page p{
+    font-size: 1.5rem;
+}.macrame>div>p{
+    font-size: 1.5rem;
+}
+.macrame>p{
+    font-size: 1.5rem;
+}
+.wax-stamps>p{
+    font-size: 1.5rem;
+}
+.wax-stamps>div>p{
+    font-size: 1.5rem;
+}
+.pots>div>p{
+    font-size: 1.5rem;
+}
+.pots>p{
+    font-size: 1.5rem;
+}
 @media (min-width:1000px){
     .macrame>div{
         width: 24%;
@@ -171,8 +201,37 @@ input[type=code]{
     }
     .pots>div{
         width:24%;
+        display: inline-block;
+        flex-wrap: wrap;
     }
     .blankets>div{
         width: 24%;
     }
+    .intro{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+   .home-page>p{
+       padding-left: 4rem;
+       padding-right: 4rem;
+   }
+   .pots>p{
+       padding-left: 2rem;
+       font-size: 2rem;
+   }
+   .wax-stamps>div>img{
+       width: 50%;
+   }
+   .wax-stamps>p{
+       padding-left: 8rem;
+       padding-right: 8rem;
+       font-size: 2rem;
+   }
+   .macrame>p{
+       font-size: 2rem;
+       padding-left: 5rem;
+   }
+   .blankets>p{
+       font-size: 2rem;
+   }
 }
